@@ -30,5 +30,15 @@ print(X, "%", Y, "=", hasil)
 hasil = X // Y
 print(X, "//", Y, "=", hasil)
 
+print("=====PRIORITAS OPERASI=====")
 # prioritas operasi
 #(), eksponen, perkalian, pertambahan
+
+D = 5
+C = 2
+E = 8
+hasil = (D + C) * E
+print(D, "+", C, "*", E, "=", hasil)
+
+hasil = D + (C - E) * C / D 
+print(D, "+", C, "-", E, "X", C, "/", D, "=", hasil)
