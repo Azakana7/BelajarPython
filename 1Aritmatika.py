@@ -42,3 +42,5 @@ print(D, "+", C, "*", E, "=", hasil)
 
 hasil = D + (C - E) * C / D 
 print(D, "+", C, "-", E, "X", C, "/", D, "=", hasil)
+
+
