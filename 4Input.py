@@ -13,6 +13,22 @@
 
 
 
-nama_saya = "BayuS Segara"
+nama = "BayuS Segara"
 
-print(len(nama_saya))
+#print(nama.count("s"))
+#print(len(nama))
+#print(nama.find("d"))
+#print(nama.capitalize())
+#print(nama.upper())
+#print(nama.lower())
+#print(nama.isdigit())
+#print(nama.isalpha())
+#print(nama.count("C"))
+print(nama.replace("a", "e"))
+#print(nama*9)
+
+saldo_1 = input("Berapa saldomu: ")
+depo = input("Mau depo berapa :")
+hasil = int(saldo_1) + int(depo)
+
+print(hasil)
